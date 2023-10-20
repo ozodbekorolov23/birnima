@@ -49,4 +49,8 @@
         border: 1px solid var(--color-DarkPink);
         transform: translateX(-40px);
     }
+
+    &__button:hover{
+        background-color:#DA6D97 ;
+    }
 }
