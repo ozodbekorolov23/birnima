@@ -1,0 +1,52 @@
+.duke{
+    margin-top: 96px;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__heading{
+        color: var(--color-SanJuanBlue);
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; 
+        letter-spacing: -0.369px;
+        max-width: 445px;
+    }
+
+    &__input{
+        background-color: var(--color-LinkWaterWhite);
+        border-radius: 24px;
+        background: var(--color-LinkWaterWhite);
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        padding: 13px 100px;
+        border: 1px solid var(--color-LinkWaterWhite);
+        color: var(--color-LightSanJuanBlue);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        opacity: 0.5;
+    }
+
+    &__button{
+        border-radius: 24px;
+        background: var(--color-DarkPink);
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        padding: 15px 25.5px;
+        color: var(--color-LinkWaterWhite);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        border: 1px solid var(--color-DarkPink);
+        transform: translateX(-40px);
+    }
+}

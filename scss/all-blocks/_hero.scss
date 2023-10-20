@@ -1,0 +1,110 @@
+.hero{
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__shadow{
+        background:url("../../shadows/ShadowFirst.png") no-repeat;
+        max-width: 780px;
+        height: 780px;
+        z-index: -1;
+        // transform: translate(200px,-100px);
+        opacity: 0.5;
+    }
+
+    &__heading{
+        color: var(--color-LightSanJuanBlue);
+        font-family: "DM Serif Display";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px; 
+        letter-spacing: -0.554px;
+        max-width: 546px;
+        width: 100%;
+    }
+
+    &__input{
+        background-color: var(--color-LinkWaterWhite);
+        border-radius: 24px;
+        background: var(--color-LinkWaterWhite);
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        padding: 13px 100px;
+        border: 1px solid var(--color-LinkWaterWhite);
+        color: var(--color-LightSanJuanBlue);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        opacity: 0.5;
+        transform: translateX(-40px);
+    }
+
+    &__button{
+        transform: translateX(-120px);
+    }
+
+    &__text{
+        padding-top: 30px;
+        color: var(--color-MirageBlue);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__paragraph{
+        color: var(--color-MirageBlue);
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;    
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .hero{
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .hero__heading{
+        text-align: center;
+    }
+
+    .hero__info{
+        position: absolute;
+        margin-top: 300px;
+    }
+
+    .hero__text{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:606px) {
+
+    .hero__info{
+        margin-top: -50px;
+    }
+    .hero__input{
+        padding: 14px 165px;
+        transform: translateX(20px);
+
+    }
+
+    .hero__button{
+        margin-top: 10px;
+        padding: 14px 200px;
+        transform: translateX(20px);
+    }
+}
+

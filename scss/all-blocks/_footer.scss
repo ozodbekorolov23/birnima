@@ -1,0 +1,28 @@
+.footer{
+    margin-top: 96px;
+    background-color: var(--color-MirageBlue);
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+.navber__logo{
+    padding: 35px 0px;
+}
+
+.navber__list{
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+.navber__schedule{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
